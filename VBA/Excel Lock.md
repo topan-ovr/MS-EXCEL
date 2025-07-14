@@ -1,8 +1,7 @@
-_______________________________________________
-******Put on Mudole
+# Put on Mudole
 
 
-
+```
 Option Explicit
 
 Sub WotksheetToShow(ByVal nameOfWs As String)
@@ -106,11 +105,10 @@ Sub ShowAll()
         'Application.DisplayFullScreen = True
         
 End Sub
+```
 
-
-___________________________________
-******Thisworkbook
-
+# Put on Thisworkbook
+```
 Private Sub Workbook_BeforeClose(Cancel As Boolean)
     RestoreElements
 End Sub
@@ -118,4 +116,4 @@ End Sub
 Private Sub Workbook_Open()
     HideAll
 End Sub
-
+```
