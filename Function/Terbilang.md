@@ -1,0 +1,11 @@
+# Function Terbilang
+```
+=IFERROR(PROPER(IF(F9=0;"nol";IF(F9<0;"minus ";"")&SUBSTITUTE(TRIM(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(IF(--MID(TEXT(ABS(F9);"000000000000000");1;3)=0;"";MID(TEXT(ABS(F9);"000000000000000");1;1)&" ratus "&MID(TEXT(ABS(F9);"000000000000000");2;1)&" puluh "&MID(TEXT(ABS(F9);"000000000000000");3;1)&" trilyun ")&IF(--MID(TEXT(ABS(F9);"000000000000000");4;3)=0;"";MID(TEXT(ABS(F9);"000000000000000");4;1)&" ratus "&MID(TEXT(ABS(F9);"000000000000000");5;1)&" puluh "&MID(TEXT(ABS(F9);"000000000000000");6;1)&" milyar ")&IF(--MID(TEXT(ABS(F9);"000000000000000");7;3)=0;"";MID(TEXT(ABS(F9);"000000000000000");7;1)&" ratus "&MID(TEXT(ABS(F9);"000000000000000");8;1)&" puluh "&MID(TEXT(ABS(F9);"000000000000000");9;1)&" juta ")&IF(--MID(TEXT(ABS(F9);"000000000000000");10;3)=0;"";IF(--MID(TEXT(ABS(F9);"000000000000000");10;3)=1;"*";MID(TEXT(ABS(F9);"000000000000000");10;1)&" ratus "&MID(TEXT(ABS(F9);"000000000000000");11;1)&" puluh ")&MID(TEXT(ABS(F9);"000000000000000");12;1)&" ribu ")&IF(--MID(TEXT(ABS(F9);"000000000000000");13;3)=0;"";MID(TEXT(ABS(F9);"000000000000000");13;1)&" ratus "&MID(TEXT(ABS(F9);"000000000000000");14;1)&" puluh "&MID(TEXT(ABS(F9);"000000000000000");15;1));1;"satu");2;"dua");3;"tiga");4;"empat");5;"lima");6;"enam");7;"tujuh");8;"delapan");9;"sembilan");"0 ratus";"");"0 puluh";"");"satu puluh 0";"sepuluh");"satu puluh satu";"sebelas");"satu puluh dua";"dua belas");"satu puluh tiga";"tiga belas");"satu puluh empat";"empat belas");"satu puluh lima";"lima belas");"satu puluh enam";"enam belas");"satu puluh tujuh";"tujuh belas");"satu puluh delapan";"delapan belas");"satu puluh sembilan";"sembilan belas");"satu ratus";"seratus");"*satu ribu";"seribu");0;""));" ";" "))&"");"")
+```
+# Replace all F9 to cell reference
+```
+Example:
+=IFERROR(PROPER(IF(F9-------------------------- to
+=IFERROR(PROPER(IF(A1--------------------------
+```
+
