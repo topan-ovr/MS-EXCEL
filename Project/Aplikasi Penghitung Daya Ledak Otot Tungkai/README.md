@@ -1,6 +1,6 @@
 # Aplikasi Penghitung Daya Ledak Otot Tungkai Berbasis Excel
 
-Aplikasi ini dibuat untuk membantu guru, pelatih, mahasiswa, atau peneliti dalam menghitung daya ledak otot tungkai menggunakan dua jenis tes kebugaran jasmani, yaitu **Standing Broad Jump** dan **Vertical Jump**. Aplikasi dirancang dalam format **Microsoft Excel** agar mudah digunakan dan disesuaikan di berbagai perangkat.
+Aplikasi ini dibuat untuk membantu guru, pelatih, mahasiswa, atau peneliti dalam menghitung daya ledak otot tungkai menggunakan dua jenis tes kebugaran jasmani, yaitu **Standing Broad Jump** dan **Vertical Jump**. Aplikasi dirancang dalam format **Microsoft Excel** agar mudah digunakan.
 
 ## 📋 Daftar Isi
 - [Fitur Utama](#fitur-utama)
