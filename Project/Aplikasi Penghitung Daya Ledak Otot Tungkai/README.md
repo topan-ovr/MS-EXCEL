@@ -22,4 +22,13 @@ Aplikasi ini dibuat untuk membantu guru, pelatih, mahasiswa, atau peneliti dalam
 ### 2. Vertical Jump Test
 
 ---
+
+## Cara Penggunaan
+- download file .xlsm [Alikasi Penghitung Daa Ledak Otot Tungkai](https://github.com/topan-ovr/MS-EXCEL/raw/refs/heads/main/Project/Aplikasi%20Penghitung%20Daya%20Ledak%20Otot%20Tungkai/Penghitung%20Daya%20Ledak%20Otot%20Tungkai.xlsm)
+- Buka file menggunakan Microsoft Excel.
+- Bila muncul notifikasi macro, maka izinkan atau klik enable
+- Apliaksi siap digunakan
+
+---
+
 Author: Topan Septiadi
